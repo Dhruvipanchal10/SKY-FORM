@@ -1,0 +1,91 @@
+<html>
+    <head><title>BUTTON</title></head>
+    <style>
+.button:hover{
+    background-color:white;
+    color:rgb(7, 7, 70);
+    box-shadow: 10px 10px 10px   rgb(7,7,70);
+}
+.button{
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(7, 7, 70);
+display: block;
+    margin:0 auto ;
+ text-align: center;
+    justify-content: center;
+    padding: 10px 12px;
+    border-color:yellow;
+    border:outset;
+}
+.form{
+    background-color: white;
+    text-align: left;
+    width:100%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px rgb(163, 198, 212);
+font-size: 20px;
+font-family: Poppins-semibold;
+
+}
+.h1{
+    text-align: center;
+    width:100%;
+    margin: 0 auto;
+    font-family: Poppins-semibold;
+    color:rgb(7, 7, 70);
+  
+
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form textarea,
+.form select {
+    border-radius: 10px;
+    padding: 8px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    /* Add any other styles you need */
+}
+.Call{
+    Color:grey;
+}
+.IM{
+    Color:grey;
+}
+
+    </style>
+    <body>
+        <hr>
+        <h1 class="h1">Have a Question?</h1><br>
+        
+  <div class="Sub" ></div>
+   Call us:   <a href="tel:09867882195" class="Call">00000000000</a>
+        <hr><br><br>
+        
+        <form class="Form">
+         <b> Name</b> &nbsp &nbsp <input type="text" placeholder="Enter your Name" id="Input" required><br><br>
+           <b> E-mail &nbsp &nbsp</b><input type="email" placeholder="abc@gmail.com"><br><br>
+            <b>Contact &nbsp</b><input type="tel" placeholder="Mobile" *required><br><br>
+           <b>Location</b>&nbsp
+            <select>
+                <option>Select</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Nashik</option>
+                <option>Satara</option>
+                <option>Others</option>
+            </select><br><br>
+           <b> Query:&nbsp &nbsp &nbsp</b><textarea placeholder="Ask us.."></textarea><br><br>
+<input type="button" id="Button"  value="SUBMIT" class="button" 
+onclick="myFunction()">
+<script class="alert">
+    function myFunction()
+    {
+alert("Sky Distributors will contact you soon")
+}
+</script>
+
+</form>
+</body>
+</html>
